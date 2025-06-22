@@ -1,0 +1,29 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.134:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.1.134 - - [20/May/2025 17:23:27] "GET /?fbclid=IwY2xjawKZN3FleHRuA2FlbQIxMABicmlkETFYZ0FUY1FiZmVFWjlFUmpSAR7erHZjMzynZ4mBEjmeYJFm_Y7BfgI1uynJgDDsSFz4FQaOyaj1K5znGNY0Mw_aem_c0b_oaiUoydBl48M0zayQg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.134 - - [20/May/2025 17:23:27] "[36mGET /static/kumphang.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.134 - - [20/May/2025 17:23:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.165 - - [20/May/2025 17:23:53] "GET /?fbclid=IwY2xjawKZN4tleHRuA2FlbQIxMQABHgO_V58I4Y_G8AcBdhmy2Qug3FxrYmIRoV6e-nBcSBXoV8UFjrRnegf8SLRx_aem_tTbypWkbkSsKQuEqfiRYWg HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.165 - - [20/May/2025 17:23:53] "GET /static/kumphang.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.165 - - [20/May/2025 17:23:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.20.10.4 - - [20/Jun/2025 13:26:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.4 - - [20/Jun/2025 13:26:46] "GET /static/kumphang.png HTTP/1.1" 200 -
+INFO:werkzeug:172.20.10.4 - - [20/Jun/2025 13:26:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.20.10.4 - - [20/Jun/2025 13:27:44] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.10.4:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [22/Jun/2025 11:10:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jun/2025 11:10:11] "GET /static/kumphang.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jun/2025 11:10:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Jun/2025 11:11:51] "POST / HTTP/1.1" 200 -
